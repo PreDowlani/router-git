@@ -9,11 +9,13 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+import Navbar from "./componentes/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
