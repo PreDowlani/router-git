@@ -12,21 +12,7 @@ import {
 import Navbar from "./componentes/Navbar";
 
 function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/about" element={<Navigate to="/aboutus" />} />
-          <Route path="/contacto" element={<Contacto />} />
-          <Route path="/contact" element={<Navigate to="/contacto" />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Router>
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
