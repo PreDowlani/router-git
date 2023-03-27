@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav ul{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  list-style-type: none;
+  margin: 10px;
+  background-color: black;
+}
+
+.nav li {
+  padding: 10px;
+}
+
+.activo {
+  color: chocolate;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+}
+
+.noactivo {
   color: white;
+  padding:5px;
 }
 
-.App-link {
-  color: #61dafb;
+.home {
+  background-image: url(https://www.gsfbroker.com/wp-content/uploads/2020/11/fraude-online2.jpg);
+  background-size: cover;
+  background-position: center;
+  height:50vh;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #42638f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home h1{
+  background-color:#79b3d3;
+}
+
+.home h1:hover{
+  background-color: black;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
